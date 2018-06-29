@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles/layout.css" /> 
+	<link rel="stylesheet" href="styles/maturedminded.css" />  
+	<title> OLADIMEJI .O. AWOSANYA - Python Developer</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Example of HTML5 header element with multiple sections. Content outside the header markup is part of the last subsection." />
+</head>
+<body id="bodyPage" >
+	 <!-- HEADER THINGS -->
+	<div class="headerPage">
+		<svg id="svgelem" height="40" xmlns="http://www.w3.org/2000/svg" id="logoHeader1">
+		<circle id="redcircle" cx="50" cy="50" r="50" fill="red" />
+		</svg>
+		<h1 id="headerText"><img src="images/MYLOGO.png " /><img src="images/head1.jpg" style="width:29%;" /><img src="images/navImage1.jpg" id="logoHeader" usemap="#Map" />
+		<!-- NAVIGATING USING MAPPING -->
+		<map name="Map">
+			<area shape="rect" coords="40,10,70,70" href="index.html" alt="Home" border="1" >
+			<area shape="rect" coords="72,10,106,70" href="About-Me.html" alt="About Me" border="1">
+			<area shape="rect" coords="108,10,149,70" href="#" alt="My-Portfolio" border="1">
+			<area shape="rect" coords="152,10,225,73" href="blogs-Oladimeji-Awosanya.html" alt="My_Blogs" border="1">
+		</map>
+	</div>
+	 <!-- FRONTPAGE THINGS -->
+	<div id="blogMainPage">
+	<br/>
+		<div id="blogsPageSub" >
+		<p style="float:right;color:red;margin-right:1%"> <b>{{ todaysDate }} {{ newyear }}&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;  </b></p>
+		<br/>
+			<h1 style="background-color:black; text-align:center;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Oladimeji Opeyemi's Blog</h1>
+			<section>
+				<div class="blogBody" >
+					{% block content %} {% endblock %}			
+				</div>
+			</section>
+
+		</div>
+		<div class="blogsPageSub1">
+			<img src="imageS/about-me.jpg" class="blogImage" />
+			<article style="padding-left:0%; padding-right:0%;">
+				{% block bk %}
+				<p class="navSettup3">Posts</p>
+				<span style="overflow: auto;">
+					{% include 'shared_bookmark_list.html' %}
+				</span>
+				{% endblock bk %}
+			</article>
+		</div>
+	<br/>
+	</div>
+	<!-- FOOTER  -->
+	<footer class="footerPage" style="background-image:url('images/fotmart.jpg'); background-repeat:no-repeat; background-position:center;">
+	<br/>
+	<ul>
+			<li>USEFUL LINKS <br/><br/>
+				<p><a href="#" title="">Portfolio</a></p>
+				<p><a href="#">Blog</a></p>
+				<p><a href="About-Me.html">About Oladimeji</a></p>
+				<p><a href="#">Earn Cool Income</a></p>
+				<p><a href="#">Soccer Focast Tip</a></p>
+				<p><a href="#" download="cv.pdf">Curriculum Vital</a></p>
+			</li>
+			<li>SERVICES <br/><br/>
+				<p>Freelancing</p>
+				<p>Teaching and Tutoring</p>
+			    <p>Data Entry Services</p>
+				<p>Data Mining and Scraping</p>
+				<p>BookKeeping</p>
+				<p>Automating Routing Jobs</p>
+				<p>Web Designing & Maintainance</p>
+				<p>Software Development</p>
+			</li>
+				
+			
+			<li>CONTACTS <br/>
+				<br/>
+				<p><b>Call On:</b><br/> Phone : 08130234460 | (WHATSAPP)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09097336680<br/> E-mail: <a href="mailto:tinuk2003@yahoo.com?subject=Enquire From My Website"><span class="email">awosanya.oladimeji@gmail.com</span></a></p>
+				<p>
+					<a href="www.facebook.com/sir.oladimeji"><img src="images/facebook.png" /></a> 
+					<a href="www.googleplus.com/sir.oladimeji"><img src="images/googleplus.png"/></a>
+					<a href="www.twitter.com/sir.oladimeji"><img src="images/twitter.png"/></a> 
+					<a href="www.linkedin.com/sir.oladimeji"><img src="images/linkedin.png"/></a>
+				</p>
+			</li>
+		</ul>
+	</footer>
+	<div style=" height:50px; background-color:black;">
+	<p style="color:blue;text-align:center;"> Copyright &copy 2018 <img src="images/MYLOGO.png " height ="45px"/>. All right reserved </p>
+	</div>
+</body>
+</html>

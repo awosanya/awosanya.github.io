@@ -1,0 +1,152 @@
+
+/* MAIN PAGE LAYOUT ACTIVITIES 
+background-image:url('banner-mainNN.jpg');*/
+#bodyPage {
+	background-color:black;
+	width: 100%;
+	/* margin: auto; */
+	margin-top: 0%; 
+}
+
+.headerPage {
+	background-color:black;
+}
+
+#content {
+	overflow: auto;
+	}
+
+#mainPage {
+	background-color:black; 
+	height:355px;
+}
+
+#mainPageSub1 {
+	background-image: url('image/disImage.jpg');
+	width:60%; 
+	height:287px; 
+	border-radius:30px; 
+	margin:1%;
+	float:left;
+	margin-left:4%;
+}
+
+#mainPageSub2 {
+	background-color: #efefef;
+	width:25%;
+	height:281px;
+	border-radius:10px;
+	margin:1%; 
+	float:left;
+}
+
+#subMainPage {
+	background-color:green; 
+	height:355px;
+}
+
+.footerPage {
+	background-color:Silver; 
+	height:475px;
+	padding-left:7%;
+	padding-top: 3%;
+}
+
+
+/* ABOUT FORMATING */
+#aboutMeMainPage {
+	background-color:black; 
+	height: 151.9em;
+}
+
+#aboutMePageSub2 {
+	width:26%; 
+	height:99%; 
+	margin:0%; 
+	float:right;
+	}
+
+#aboutMePageSub1 {
+	background-color:white;
+	width:70%; 
+	height:99%; 
+	border-radius:30px; 
+	margin:1%;
+	float:left;
+	}
+	
+
+
+/* RESUME FORMATING */
+
+#resumeMainPageSub1 {
+	background-color:white;
+	width:620px; 
+	height:1322px; 
+	border-radius:30px; 
+	margin:32px;
+	float:left;
+	position: static;
+	}
+	
+#resumeMainPage {
+	background-color:black; 
+	height:1422px;
+	}
+	
+
+/* MY BLOGS */
+/* .blogsPageSub { */
+	/* width:6%;  */
+	/* height:98%;  */
+	/* border-radius:30px;  */
+	/* margin:1%;  */
+	/* float:right; */
+	/* } */	
+
+#blogMainPage {
+	background-color:black;
+	height: 149.5em;
+}
+
+#blogsPageSub {
+	background-color:white;
+	width:70%; 
+	height:97%; 
+	border-radius:30px; 
+	margin:1%;
+	float:left;
+	overflow: auto;
+	}
+
+#blogsPageSub1 {
+	width:26%; 
+	height:139%; 
+	margin:0%; 
+	float:right;
+	}
+	
+/* MY PORTFOLIO */
+
+#portfolioMainPage {
+	background-color:black; 
+	height: 36.5em;
+}
+
+#portfolioPageSub1 {
+	background-color:white;
+	width:70%; 
+	height:91%; 
+	border-radius:30px; 
+	margin:1%;
+	float:left;
+	}
+	
+#portfolioPageSub2 {
+	width:26%; 
+	height:91%; 
+	border-radius:30px; 
+	margin:1%; 
+	float:right;
+	}
+	

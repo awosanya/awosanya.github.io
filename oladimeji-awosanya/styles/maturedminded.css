@@ -1,0 +1,317 @@
+
+/**********************************************************************************************************************************************************************  BLOGS FORMATTING *********************************************/
+
+.blogPostDate {
+	font-size:9px;
+}
+
+.blogImage {
+	width:22%; 
+	height:219px; 
+	border-radius:30%; 
+	margin:1%; 
+	position:center;
+	padding:1%;
+	}
+
+.blogBody {
+	height:auto;
+	padding-right:1%;
+}
+
+.navblogsSettup {
+	margin-right:3%;
+	margin-left:7%;
+}
+
+.navblogsSettup1 {
+	margin-left:2%;
+	color:gold;
+}
+
+/************************************************************************************************************************************************************----- LOGIN FORM THINGS --- **********************************************/
+
+#subscribePageForm {
+	margin:3%;
+	background-color:green;
+
+}
+
+#subscribeholder {
+	margin:30%;
+}
+
+.sigInSpaceMargin {
+	margin:22px;
+}
+
+#userName {
+	size:15px;
+}
+
+#passwordEntry1	{
+	size:15px;
+}
+
+/*******************************************************************************************************************************************************************-----GENERAL THINGS --- *******************************************/
+
+h1 {
+	text-shadow: -3px 2px 0px #514d46; 
+}
+
+li {
+	float:left;
+	margin-left: 50px;
+}
+
+a {text-decoration:none;}
+a { color: blue; }
+a:hover { color:#0a99ae; border: 1px solid #e83119 }
+a {
+	-webkit-transition-property: color;
+	-webkit-transition-property: border;
+	-webkit-transition-duration:.3s;
+	-webkit-transition-timing:ease-out;
+}
+ 
+#logoHeader1 {
+	"margin-left:22px;
+	position:absolute;
+}
+
+#logoHeader {
+	float:right; 
+	width:247px; 
+	height:77px;
+	margin-right:44px; 
+	margin-bottom:0px;
+	padding-left: 0.5em;
+} 
+
+#headerText {
+	color:white; 
+	margin-left:22px;
+	margin-top:0px;
+	margin-bottom:0px;"
+}
+
+.todaysDate {
+	color:blue;
+	margin-left:11%;
+}
+
+.banners {
+	width:90px; 
+	height:60px;
+}
+
+.email {
+	text-decoration:underline;
+}
+
+.footme {
+	height:50px; 
+	background-color:black;
+}
+
+.footme1 {
+	color:blue;
+	text-align:center;
+}
+
+/***************************************************************************************************************************************************************** ABOUT_ME FORMATING *************************************************/
+
+#aboutMeImage {
+	width:80%; 
+	height:219px; 
+	border-radius:20%; 
+	margin-top:2%; 
+	position:center;
+	padding:2%;
+	}
+
+#aboutMeHeadline {
+	margin-left:18%;
+	margin-top:30px
+}
+
+.headerParagraphy {
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:3%;
+	margin-bottom:0%;
+}
+
+.otherStuffDoing {
+	width: 20%;
+	float: left;
+	margin-right: 20px;
+	margin-bottom:6%;
+	border-radius:20%;
+	height:130px;
+
+}
+
+.headHolder {
+	font-family:Brush Script MT; 
+	font-size:150%;
+}
+
+.navPageColor {
+	color:white;
+}
+
+.navPageColor1 {
+	color:gold;
+}
+
+.navMargin {
+	margin-left:23%;
+}
+
+.navSettup3 {
+	margin-left:3%;
+	color:gold;
+}
+
+.navSettup4 {
+	margin-right:19%;
+	margin-left:-9%;
+}
+
+
+
+
+/********************************************************************************************************************************************************************** MY PORTFOLIO **************************************************/
+
+.bg-clip {
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-transform: rotate(35deg);
+	-moz-transform: rotate(30deg);
+	-o-transform: rotate (30deg);
+}
+
+.shadowed {
+	border: 3px solid #fff;
+	-o-box-shadow: 0 3px 4px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 3px 4px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 3px 4px rgba(0,0,0,.5);
+	box-shadow: 0 3px 4px rgba(0,0,0,.5);
+}
+
+.smash1 { margin-bottom: -125px;
+-o-transform: rotate(2.5deg);
+-moz-transform: rotate(2.5deg);
+-webkit-transform: rotate(2.5deg);
+}
+.smash2 {
+-o-transform: rotate(-7deg);
+-moz-transform: rotate(-7deg);
+-webkit-transform: rotate(-7deg);
+}
+.smash3 {
+-o-transform: rotate(2.5deg);
+-moz-transform: rotate(2.5deg);
+-webkit-transform: rotate(2.5deg);
+}
+.smash4 {
+margin-top: -40px;
+-o-transform: rotate(-2.5deg);
+-moz-transform: rotate(-2.5deg);
+-webkit-transform: rotate(-2.5deg);
+}
+
+.circle_motion {
+-webkit-animation-name: track;
+-webkit-animation-duration: 8s;
+-webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes track {
+	0% {margin-top :0px;}
+	25% {margin-top:150px;}
+	50% {
+		margin-top:150px;
+		margin-left: 300px;}
+	75% {
+		margin-top:0px;
+		margin-left: 300px;}
+	100% {margin-left:0px;s}
+}
+
+#sun.animate {
+animation-name: sunrise;
+animation-duration: 10s;
+animation-timing-function: ease;
+animation-iteration-count: 1;
+animation-direction: normal;
+animation-delay: 5s;
+animation-play-state: running;
+animation-fill-mode: forwards;
+
+@keyframes sunrise {
+0% {
+background: #f00;
+left: 340px;
+bottom: 0;
+animation-timing-function: ease;
+}
+33% {
+bottom: 340px;
+left: 340px;
+background: #ffd630;
+animation-timing-function: linear;
+}
+66% {
+left: 40px;
+bottom: 340px;
+background: #ffd630;
+animation-timing-function: steps(4);
+}
+100% {
+bottom: 0;
+left: 40px;
+background: #f00;
+animation-timing-function: linear;
+}
+}
+
+header {
+display: box; box-align: center;
+}
+header #search {
+display: box; box-flex: 1;
+}
+
+.ball-arc {
+-webkit-animation: ball-x 2.5s cubic-bezier(0, 0, 0.35, 1);
+}
+/* cubic-bezier here is to adjust the animation-timing
+speed.
+This example makes the ball take longer to slow down. */
+@-webkit-keyframes ball-x {
+0% { -webkit-transform: translateX(-275px); }
+100% { -webkit-transform: translateX(0px); }
+}
+
+.ball img {
+-webkit-animation: spin 2.5s;
+}
+@-webkit-keyframes spin {
+0% { -webkit-transform: rotate(-180deg); }
+100% { -webkit-transform: rotate(360deg); }
+}
+
+/* nav ul {
+display: box;
+width: 880px;
+}
+nav ul li {
+padding: 2px 5px;
+box-flex: 1;
+-webkit-transition: width 0.5s ease-out;
+min-width: 100px;
+}
+nav ul li:hover {
+width: 200px;
+} */
