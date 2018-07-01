@@ -1,0 +1,377 @@
+/* -------------------------------------------HOME PAGE STYLING--------------------------------------- */
+
+.headingDisplay {
+	font-family: Edwardian Script ITC;
+	font-size: 60px;
+	text-align: center;	
+	text-shadow: 3px 3px 1px blue;
+	margin: 0;
+	padding: 0 0; 
+	color: white;
+}
+
+.webDiscription {
+	text-align: center;	
+	margin-top: 0;
+	margin-bottom: -2%;
+	padding-bottom:3%;
+	color:white;
+}
+
+.imgClass {
+  display: block;
+  margin: 0% auto;
+  height: 180px;
+  border-radius:60%;
+}
+
+.qouteNavBar {
+	display: inline;
+	padding-right:3%;
+	color:red;
+	margin-top:0;	
+	padding-top:1%;
+}
+
+
+.imgAlignNavBar {
+	display: inline;
+	padding-right:3%;
+	margin: 0;	
+}
+
+
+.headerNavBar {
+	display: inline;
+	padding-right:3%;
+	margin-bottom:0;
+}
+
+
+.upperLayer {
+	background-color: white; 
+	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-top: -2%;
+	padding-left: 0%;
+	text-align: right;
+	margin-bottom:-1%;
+}
+
+.rightSideColumnPage {
+	width: 22%;
+	float: right;
+	background-color: green;
+	padding:1%;
+	height: 900px;
+	margin-top:-1%;
+	
+}
+
+.centerColumnPage {
+	width: 50%;
+	float: right;
+	background-color: white;
+	padding:1%;
+	height: 920px;
+	margin-top:-2%;
+	margin-bottom:1%;
+}
+
+.leftSideColumnPage {
+	width: 22%;
+	float: right;
+	background-color: green;
+	padding:1%;
+	height: 900px;
+	margin-top:-1%;
+}
+
+
+#welComePage {
+	text-align:center;
+	margin-bottom:0;
+}
+
+#discriptionParagraph {
+	text-align:center;
+	color:red;
+	padding: 0%;
+	margin:0px;
+}
+
+
+
+
+
+/* ---------------------------------------------FORMS -----------------------------------------*/
+
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 85%;
+  /* To see the outline of the form */
+  padding: 1em;
+  
+}
+
+.formBorder {
+	border: 1px solid #CCC;
+	border-radius: 1em;
+}
+form div + div {
+  margin-top: 1em;
+}
+
+#soccerData {
+	width: 100%;
+	box-sizing: border-box;
+	border: 4px solid #999;
+} 
+
+#name {
+	font: 1em sans-serif;
+	width: 77%;
+	box-sizing: border-box;
+	border: 1px solid #999;
+	float: right;
+}
+
+#mail {
+	font: 1em sans-serif;
+	width: 73%;
+	box-sizing: border-box;
+	border: 1px solid #999;
+	float: right;
+}
+
+#msg {
+	vertical-align: top;
+	width: 99%;
+	height: 9em;
+	border: 1px solid #999;
+	box-sizing: border-box; 
+	font: 1em sans-serif;
+	resize:none;
+
+	
+}
+
+
+
+input:focus, textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+.getItButton {
+	padding-left: 10px;
+	margin-left: 4.7em;
+	margin-top:3%;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: 3.7em;
+}
+
+/* required validation parameter */
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
+legend {
+  /* width: 1px; */
+  /* height: 1px; */
+  /* overflow: hidden; */
+}
+
+/* --------------------------------------------------ABOUT ME --------------------------------- */
+#aboutMeHeadline {
+	margin-left:18%;
+	margin-top:30px
+}
+
+.headerParagraphy {
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:3%;
+	margin-bottom:0%;
+}
+
+.headHolder {
+	font-family:Brush Script MT; 
+	font-size:150%;
+}
+
+.otherStuffDoing {
+	width: 20%;
+	float: left;
+	margin-right: 20px;
+	margin-bottom:3%;
+	border-radius:20%;
+	height:130px;
+	
+
+}
+
+#aboutMeImage {
+	width:80%; 
+	height:219px; 
+	border-radius:20%; 
+	margin-top:2%; 
+	position:center;
+	padding:2%;
+	}
+
+.navPageColor {
+	color:white;
+}
+
+.navPageColor1 {
+	color:gold;
+}
+
+.navMargin {
+	margin-left:23%;
+}
+
+.navSettup3 {
+	margin-left:3%;
+	color:gold;
+}
+
+.navSettup4 {
+	margin-right:19%;
+	margin-left:-9%;
+}
+
+
+/* --------------------------------------------------------RESUME STYLING ---------------------------------*/
+
+.downloadParaThing {
+	text-align: center;
+}
+
+.paraHeadThing {
+	padding-left:3%;
+	padding-right:2%;
+	color:blue;
+}
+
+.paraThing {
+	margin-left:4%;
+	margin-right:2%;
+}
+
+#resumeImage {
+	width:60%; 
+	height:2%; 
+	border-radius:60%; 
+	margin-top:15%; 
+	margin-left:19%;
+	margin-right:19%;
+	}
+
+	/* ------------------------------------------BLOG STYLING -----------------------------------------*/
+	
+.blogBody {
+	height:auto;
+	padding-right:1%;
+}
+
+.blogImage {
+	width:22%; 
+	height:219px; 
+	border-radius:30%; 
+	margin:1%; 
+	position:center;
+	padding:1%;
+	}
+/*--------------------------------------------- GENERAL STYLING------------------------------------------- */
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+a:active {
+	color: red;
+}
+a:hover {
+	color:green;
+	font-size:120%;
+	border: 2px solid #e83119;
+}
+
+a {
+	-webkit-transition-property: color;
+	-webkit-transition-property: border;
+	-webkit-transition-duration:.3s;
+	-webkit-transition-timing:ease-out;
+}
+
+.pageParagraphy {
+	padding-left:2%;
+	padding-right:2%;
+}
+
+#logoHeader1 {
+	"margin-left:22px;
+	position:absolute;
+}
+
+#headerText {
+	color:white; 
+	margin-left:22px;
+	margin-top:0px;
+	margin-bottom:0px;"
+}
+
+#logoHeader {
+	float:right; 
+	width:247px; 
+	height:77px;
+	margin-right:44px; 
+	margin-bottom:0px;
+	padding-left: 0.5em;
+} 
+
+.email {
+	text-decoration:underline;
+}
+
+.footLinks {
+	float:left;
+	padding-top: 1%;
+	padding-left: 2%;
+	margin-left: 2%;
+	margin-right: 1%;
+}
+
+.footMate {
+	background-color: SILVER;
+	height: 413px;
+	margin-top:-2%;
+	padding-left:7%;
+}
+
+.footContact {
+	display: inline;
+	padding:5%;
+}
+
+h1 {
+	text-shadow: -3px 2px 0px #514d46; 
+}
+

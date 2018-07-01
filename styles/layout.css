@@ -1,0 +1,94 @@
+
+/* GENERAL PAGE LAYOUT  --- background-image:url('banner-mainNN.jpg');*/
+body {
+	background-color:black;
+	width: 100%;
+	margin: auto;
+	margin-top: 0%; 
+}
+
+#content {
+	overflow: auto;
+	}
+
+.footerPage {
+	background-color:Silver; 
+	height:475px;
+	padding-left:7%;
+	padding-top: 3%;
+}
+
+/*---------------------------------------------- ABOUT FORMATING -------------------------------------------*/
+#aboutMeMainPage {
+	background-color:black; 
+	height: 151.9em;
+}
+
+#aboutMePageSub2 {
+	width:26%; 
+	height:99%; 
+	margin:0%; 
+	float:right;
+	}
+
+#aboutMePageSub1 {
+	background-color:white;
+	width:70%; 
+	height:99%; 
+	border-radius:30px; 
+	margin:1%;
+	float:left;
+	}
+	
+
+
+/* ----------------------------------------------RESUME FORMATING ------------------------------------*/
+
+#resumeMainPageSub1 {
+	background-color:white;
+	width:65%; 
+	height:97%; 
+	border-radius:30px; 
+	margin:2%;
+	float:left;
+	}
+	
+#resumeMainPageSub2 {
+	background-color: #efefef;
+	width:26%;
+	height:97%;
+	border-radius:30px;
+	margin:2%; 
+	float:left;
+}
+	
+#resumeMainPage {
+	background-color:black; 
+	height:1649px;
+	}
+	
+
+/* ------------------------------------------------MY BLOGS LAYOUT------------------------------------------*/
+
+#blogMainPage {
+	background-color:black;
+	height: 149.5em;
+}
+
+#blogsPageSub {
+	background-color:white;
+	width:70%; 
+	height:97%; 
+	border-radius:30px; 
+	margin:1%;
+	float:left;
+	overflow: auto;
+	}
+
+#blogsPageSub1 {
+	width:26%; 
+	height:139%; 
+	margin:0%; 
+	float:right;
+	}
+	
