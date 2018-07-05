@@ -33,6 +33,9 @@
 	padding-top:1%;
 }
 
+q::before {
+    content: open-quote;
+}
 
 .imgAlignNavBar {
 	display: inline;
@@ -51,41 +54,12 @@
 .upperLayer {
 	background-color: white; 
 	width: 100%;
-	padding-top: 2%;
-	padding-bottom: 2%;
+	padding-top: 6%;
+	padding-bottom: 3%;
 	margin-top: -2%;
 	padding-left: 0%;
 	text-align: right;
 	margin-bottom:-1%;
-}
-
-.rightSideColumnPage {
-	width: 22%;
-	float: right;
-	background-color: green;
-	padding:1%;
-	height: 900px;
-	margin-top:-1%;
-	
-}
-
-.centerColumnPage {
-	width: 50%;
-	float: right;
-	background-color: white;
-	padding:1%;
-	height: 920px;
-	margin-top:-2%;
-	margin-bottom:1%;
-}
-
-.leftSideColumnPage {
-	width: 22%;
-	float: right;
-	background-color: green;
-	padding:1%;
-	height: 900px;
-	margin-top:-1%;
 }
 
 
@@ -102,18 +76,13 @@
 }
 
 
-
-
-
 /* ---------------------------------------------FORMS -----------------------------------------*/
 
 form {
-  /* Just to center the form on the page */
-  margin: 0 auto;
+  margin: 0em auto;
   width: 85%;
-  /* To see the outline of the form */
   padding: 1em;
-  
+  display: block;
 }
 
 .formBorder {
@@ -122,6 +91,21 @@ form {
 }
 form div + div {
   margin-top: 1em;
+}
+
+fieldset {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    min-width: -webkit-min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
 }
 
 #soccerData {
@@ -192,9 +176,13 @@ input:valid {
 }
 
 legend {
-  /* width: 1px; */
-  /* height: 1px; */
-  /* overflow: hidden; */
+	display: block;
+    -webkit-padding-start: 2px;
+    -webkit-padding-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
 }
 
 /* --------------------------------------------------ABOUT ME --------------------------------- */
@@ -303,7 +291,7 @@ legend {
 
 a {
 	text-decoration: none;
-	color: blue;
+	/* color: blue; */
 }
 a:active {
 	color: red;
@@ -314,11 +302,17 @@ a:hover {
 	border: 2px solid #e83119;
 }
 
-a {
-	-webkit-transition-property: color;
-	-webkit-transition-property: border;
-	-webkit-transition-duration:.3s;
-	-webkit-transition-timing:ease-out;
+/* a { */
+	/* -webkit-transition-property: color; */
+	/* -webkit-transition-property: border; */
+	/* -webkit-transition-duration:.3s; */
+	/* -webkit-transition-timing:ease-out; */
+/* } */
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .pageParagraphy {
@@ -327,8 +321,9 @@ a {
 }
 
 #logoHeader1 {
-	"margin-left:22px;
+	margin-left:22px;
 	position:absolute;
+	
 }
 
 #headerText {
@@ -361,9 +356,10 @@ a {
 
 .footMate {
 	background-color: SILVER;
-	height: 413px;
-	margin-top:-2%;
-	padding-left:7%;
+	height: 373px;
+	margin-top:-4%;
+	padding-left:9%;
+	padding-top:4%;
 }
 
 .footContact {
@@ -375,3 +371,42 @@ h1 {
 	text-shadow: -3px 2px 0px #514d46; 
 }
 
+ul  {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+div {
+    display: block;
+}
+
+footer {
+	display: block;
+}
+/* -------------------------------------------------- ANIMATION  --------------------*/
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+figcaption {
+  animation-name: rotate;
+  animation-duration: 2.9s;
+  animation-timing-function: linear;
+  animation-iteration-count: 2;
+}

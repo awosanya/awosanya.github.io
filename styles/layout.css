@@ -4,7 +4,9 @@ body {
 	background-color:black;
 	width: 100%;
 	margin: auto;
-	margin-top: 0%; 
+	/* margin-top: -1%;  */
+	display:block;
+
 }
 
 #content {
@@ -16,6 +18,35 @@ body {
 	height:475px;
 	padding-left:7%;
 	padding-top: 3%;
+}
+/* -----------------------------------------HOME PAGE LAYOUT ----------------------------------------------*/
+.rightSideColumnPage {
+	width: 22%;
+	float: right;
+	background-color: green;
+	padding:1%;
+	height: 1059px;
+	margin-top:-1%;
+	
+}
+
+.centerColumnPage {
+	width: 50%;
+	float: right;
+	background-color: white;
+	padding:1%;
+	height: 1090px;
+	margin-top:-2%;
+	margin-bottom:1%;
+}
+
+.leftSideColumnPage {
+	width: 22%;
+	float: right;
+	background-color: green;
+	padding:1%;
+	height: 1059px;
+	margin-top:-1%;
 }
 
 /*---------------------------------------------- ABOUT FORMATING -------------------------------------------*/
@@ -64,7 +95,7 @@ body {
 	
 #resumeMainPage {
 	background-color:black; 
-	height:1649px;
+	height:1659px;
 	}
 	
 
