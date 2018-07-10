@@ -1,0 +1,40 @@
+/* -------------------------------------------------- MY NAME  --------------------*/
+
+@keyframes zoomingName {
+  0% {
+    transform: rotate(0deg);
+	font-size:24px;
+  }
+
+  100% {
+	font-size:44px;
+  }
+}
+
+figcaption {
+  animation-name: zoomingName;
+  animation-duration: 3.9s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+
+/* -------------------------------------------------- MY QOUTES  --------------------*/
+
+@keyframes quotesWriteUp {
+  0% {
+    transform: rotate(0deg);
+	color:red;
+  }
+
+  100% {
+	color:gold;
+  }
+}
+
+#qouteAnimation {
+  animation-name: quotesWriteUp;
+  animation-duration: .3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}

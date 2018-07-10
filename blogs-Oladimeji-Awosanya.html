@@ -18,7 +18,7 @@
 		<map name="Map">
 			<area shape="rect" coords="40,10,70,70" href="index.html" alt="Home" border="1" >
 			<area shape="rect" coords="72,10,106,70" href="About-Me.html" alt="About Me" border="1">
-			<area shape="rect" coords="108,10,149,70" href="#" alt="My-Portfolio" border="1">
+			<area shape="rect" coords="108,10,149,70" href="portfolio.html" alt="My-Portfolio" border="1">
 			<area shape="rect" coords="152,10,225,73" href="blogs-Oladimeji-Awosanya.html" alt="My_Blogs" border="1">
 		</map>
 	</div>
@@ -26,18 +26,19 @@
 	<div id="blogMainPage">
 	<br/>
 		<div id="blogsPageSub" >
-		<p style="float:right;color:red;margin-right:1%"> <b>{{ todaysDate }} {{ newyear }}&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;  </b></p>
-		<br/>
-			<h1 style="background-color:black; text-align:center;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Oladimeji Opeyemi's Blog</h1>
+			<p style="text-align:right;color:red;margin-right:1%;margin-bottom:-8px;padding-right:25px;"> <b>{{ todaysDate }} {{ newyear }}</b></p>
+			<h1 style="background-color:black; text-align:center;">Oladimeji Opeyemi's Blog</h1>
 			<section>
 				<div class="blogBody" >
-					{% block content %} {% endblock %}			
+				<p style="text-align:center;font-size:55px;color:red;text-shadow:-3px 2px 0px #514d46;"> Under Construction</p>
+					<!-- {% block content %} {% endblock %}			 -->
 				</div>
 			</section>
 
 		</div>
 		<div class="blogsPageSub1">
-			<img src="imageS/about-me.jpg" class="blogImage" />
+			<img src="imageS/blogsImg.jpg" class="blogImage" />
+			<p class="navSettup3">He just love sharing what sharing</p>
 			<article style="padding-left:0%; padding-right:0%;">
 				{% block bk %}
 				<p class="navSettup3">Posts</p>

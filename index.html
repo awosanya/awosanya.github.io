@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <!-- Setting the primary language -->
-<html <html lang="en-US">>
+<html lang="en-US">
  <head>
 	<title>Oladimeji .O. Awosanya</title>
-	<link href="styles/style.css" rel="stylesheet" type="text/css">
-	<link href="styles/layout.css" rel="stylesheet" type="text/css">
+	<link href="styles/style.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="styles/layout.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="styles/animations.css" media="screen" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
 	<meta name="author" content="OLADIMEJI .O. AWOSANYA - Python Developer">
 	<meta name="description" content="This is my Personal Website where i share what i encounter on the web or study in which it might be of help to you... It's also a medium of sharing my curiousity about life ...">
@@ -23,28 +24,27 @@
  </head>
  <body>
 	<!-- NAVIGATION BAR  -->
-  <div style="margin-top:-6%;">
+  <div style="margin-top:-5%;">
     <ul class = "upperLayer">
 		<li class="headerNavBar"><a href="index.html">Home</a></li>
-		<li class="headerNavBar"><a href="">Porfolio</a></li>
+		<li class="headerNavBar"><a href="About-Me.html">About Oladimeji</a></li>
+		<li class="headerNavBar"><a href="portfolio.html">Porfolio</a></li>
+		<li class="headerNavBar"><a href="">LifeStream</a></li>
 		<li class="headerNavBar"><a href="blogs-Oladimeji-Awosanya.html">Blogs</a></li>
-		<li class="headerNavBar"><a href="About-Me.html">About Oladimeji</a></li>	
-				
 	</ul>
   </div>
 	<!-- LOGO IMAGE AND PAGE HEADER -->
   <div style="background-image:url('images/img1.jpg'); background-repeat:no-repeat; background-position:center; display:block;background-color:black;margin-top:-2%;">
-	<ul>
-	<li class="qouteNavBar"><i> <q>Don’t underestimate me. I know more than<br/> I say, I think more than I speak and I  <br/> notice more than you realize.</q></i><br/></li>
-	<li class="imgAlignNavBar">
+	<div class="imgAlignNavBar">
 		<figure>
 			<img src="images/oladimeji1.jpg"  alt="FREELANCER" class="imgClass"></li>
 			<figcaption class="headingDisplay">Oladimeji .O. Awosanya</figcaption>
 	</figure>
-	</ul>
-	<!-- <h1 class="headingDisplay"><a href="">Oladimeji .O. Awosanya</a></h1> -->
+	</div>
+	<p style="text-align:center;margin-top:-4%;color:white;font-size:24px;"> I'm an <span style="color:yellow;">Accountant</span> & a Full Stack  <span style="color:yellow;">Software Developer</span></p>
 	<p class=" webDiscription"><span style="color:yellow;font-size:18px;"><b>Talk to me about :</b></span>&nbsp;&nbsp;  Accounting | Fianacial Data Analysis | BookKeeping | Teaching and Tutoring | Auditing |  <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Web & Software Development | Web Minning | Data Entry | Internet Research | Soccer Predictions</p>
   </div>
+
   <hr/>
   <!-- LEFT COLUMN SIDE BAR -->
   <div class="leftSideColumnPage">
@@ -107,7 +107,7 @@
   <div class="centerColumnPage">
 	<h3 id="welComePage">Welcome To My Personal Website ...!</h3>
 	<p id="discriptionParagraph">This is my Vision Beyond Mission</p><br/>
-	<p class="pageParagraphy">I'm a freelance full stack developer with a background in Financial Accounting . I have worked on Accounting packages, Python GUI products and some data programs to experiment with Data Analysis. I came out of Financial Accounting to web & software development and developed a passion for Python and Django frameworks after working on several projects using Python Programming Language.</p>
+	<p class="pageParagraphy">I'm a full stack developer with a background in Financial Accounting . I have worked on Accounting packages, Python GUI products and some data programs to experiment with Data Analysis. I came out of Financial Accounting to web & software development and developed a passion for Python and Django frameworks after working on several projects using Python Programming Language.</p>
 	
 	<p class="pageParagraphy">The Financial Accounting as a profession	gives me a vision towards Data Analysis and Presentation using the skill acquired in one of the Python Modules for effective Computation and Presentation delivery. </p>
 	<p class="pageParagraphy">Check out my <a href="resume.html">Resume</a>.</p>
@@ -154,9 +154,12 @@
   </div>
   <!-- RIGHT COLUMN SIDE BAR -->
   <div class="rightSideColumnPage">
-	<p><a href="https://hired.com/x/630xp" target="_blank"><img src="images/hired.png" width="99%" height="138px"border="2%"  alt="Get HIRED AS A FREELANCER AT EASE"></a></p>
+	<p style="text-align:center;padding-top:3%;padding-bottom:2%; border: 2px solid grey;background-color:blue;background-color: rgba(17, 18, 17, .7);font-size:22px;color:white;">Looking for Job...?<br/><a href="https://hired.com/x/630xp" target="_blank"> Get Hired</a> <br/>Now...!</p>
 	<p></p>
-	
+	<!-- AS MOVE TO TOP -->
+	<div class="qouteNavBar " ><p id="qouteAnimation">
+		<q>Don’t underestimate me. I know more than I say, I think more than I speak and I notice more than you realize.</q></p>
+	</div>
   </div>
 	<hr/>
  
@@ -196,6 +199,6 @@
 	<div>
 	<p style="color:red; text-align:center;"> Copyright &copy 2018 <img src="images/MYLOGO.png " height ="55px"/>. All right reserved </p>
 	</div>
- <script src="scripts/main.js"></script>
+ <script src="scripts/main.js" defer></script>
  </body>
 </html>
