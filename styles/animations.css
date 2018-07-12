@@ -38,3 +38,23 @@ figcaption {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
+
+/* ------------------------------------------------GETHIRED LINKS-------------------------- */
+
+@keyframes getHiredAlert {
+  0% {
+    transform: rotate(0deg);
+	color:red;
+  }
+
+  100% {
+	color:blue;
+  }
+}
+
+#gethiredAlart {
+  animation-name: getHiredAlert;
+  animation-duration: .9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}

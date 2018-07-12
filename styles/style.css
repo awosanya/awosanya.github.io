@@ -11,10 +11,12 @@
 }
 
 .webDiscription {
-	text-align: center;	
+	/* text-align: center;	 */
+	padding-left:3%;
+	padding-right:4%;
 	margin-top: 0;
 	margin-bottom: -2%;
-	padding-bottom:3%;
+	padding-bottom:4%;
 	color:white;
 }
 
@@ -86,6 +88,16 @@ q::before {
 	margin:0px;
 }
 
+#getHired {
+	text-align:center;
+	padding-top:3%;
+	padding-bottom:2%; 
+	border: 2px solid grey;
+	background-color:blue;
+	background-color: rgba(17, 18, 17, .7);
+	font-size:22px;
+	color:white;"
+}
 
 /* ---------------------------------------------FORMS -----------------------------------------*/
 
