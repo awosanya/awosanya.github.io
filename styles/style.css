@@ -434,3 +434,8 @@ footer {
 	display: block;
 }
 
+#todaysTime {
+	padding-left:4%;
+	color:blue;
+	font-weight:bold;
+}

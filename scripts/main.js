@@ -14,7 +14,14 @@
 
 // TIME DISPLAYING
 disPlayTime = document.getElementById("todaysTime");
-disPlayTime.innerHTML = Date();
+var todaysDate = new Date();
+var todaysDay = todaysDate.getDate();
+var months = ["January","February","March","April", "May", "June", "July", "August", "September","October", "November","December"];
+var monthOfTheYear = months[todaysDate.getMonth()];
+var yearss = todaysDate.getFullYear();
+var days = ["Sunday","Monday","Tuesday","Wednesday", "Thursday", "Friday", "Satuday"];
+var daysSellection = days[todaysDate.getDay()];
+disPlayTime.innerHTML = daysSellection + " " + " " + todaysDay + " " + monthOfTheYear + " " + yearss ;
 
 // CHANGING IMAGE
 var myImage = document.querySelector('img');
