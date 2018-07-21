@@ -121,3 +121,26 @@ body {
 	float:right;
 	}
 	
+	
+/* --------------------------------------------------PORTFOLIO------------------------------- */
+#portfolioMainPage {
+	background-color:black; 
+	height: 36.9em;
+}
+
+#portfolioPageSub2 {
+	width:26%; 
+	height:96%; 
+	margin:0%; 
+	float:right;
+	}
+
+#portfolioPageSub1 {
+	background-color:white;
+	width:70%; 
+	height:96%; 
+	border-radius:30px; 
+	margin:1%;
+	float:left;
+	}
+	

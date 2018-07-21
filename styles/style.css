@@ -12,7 +12,7 @@
 
 .webDiscription {
 	/* text-align: center;	 */
-	padding-left:3%;
+	padding-left:21%;
 	padding-right:4%;
 	margin-top: 0;
 	margin-bottom: -2%;
@@ -38,6 +38,21 @@
 	padding-top:1%;
 	font-weight:bold;
 	font-style:italic;
+}
+
+.hireMe {
+	position:relative;
+	bottom:353px;
+	left:3%;
+	display: inline;
+	padding-right:3%;
+	color:red;
+	margin-top:0;	
+	padding-top:1%;
+	font-weight:bold;
+	font-style:italic;
+	font-size:35px;
+	font-family:Vivaldi;
 }
 
 q::before {

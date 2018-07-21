@@ -1,0 +1,334 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background:white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14pt;
+	color: #000000;
+}
+
+#header-wrapper {
+	overflow: hidden;
+	height: 150px;
+	background-color:black;
+}
+
+#header {
+	overflow: hidden;
+	min-height: 205px;
+	position: relative;
+}
+
+h1, h2, h3 ,p {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Satisfy', cursive;
+	color:white;
+}
+
+.headNav {
+	float:right;
+	padding-right:50px;
+	position:relative;
+	bottom:27px;
+	/* left: 69%; */
+}
+
+a {
+	text-decoration:none;
+	font-family: 'Satisfy', cursive;
+	color: #A2A2A2;
+}
+
+a:hover {
+	text-decoration: none;
+	color:grey;
+}
+
+#banner-wrapper {
+	overflow: hidden;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:50px;
+	padding-bottom:1px;
+	/* background: #C73C49; */
+	height:326px;
+}
+
+#banner {
+	overflow: hidden;
+	height:275px;
+	width:445px;
+	float:left;
+}
+
+#welcomeParagraph {
+	text-align:center;
+	font-family:French Script MT;
+	font-size:45px;
+	color:blue;
+}
+
+.headParagraphy {
+	color:black;
+	text-align:center;
+}
+
+.authorName {
+	font-family:Pristina;
+	font-size:50px;
+	color:red;
+}
+
+
+#feature-wrapper {
+	overflow: hidden;
+	padding: 10px 0px;
+	/* background: #FFFFFF; */
+	background: black;
+}
+
+img.alignleft {
+	float: left;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+#banner a img {
+	width: 100%;
+	display: block;
+}
+
+#feature-content a img {
+	width: 21%;
+	padding: 40px 0px 10px 0px;
+	margin-left:34px;
+	float:left;
+}
+
+#copyright {
+	overflow: hidden;
+	height: 165px;
+	background-color:black;
+}
+
+#copyright p {
+	padding: 20px 0px 0px 0px;
+	text-align: center;
+	text-shadow: 1px 1px 0px rgba(0,0,0,.5);
+	color:white;
+	/* color: #4B4341; */
+}
+
+.active {
+	padding:5%;
+	background-color:Silver ;
+	border-radius:10%;
+	color:black;
+}
+
+/* ------------------------------------------------------slide gallary----------------------- */
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  background-color:#696969;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 18px 272px;
+  position: absolute;
+  top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+
+
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.footmate {
+	overflow:hidden;
+	width: 100%;
+}
+.rightSideColumnPage {
+	width: 25%;
+	float: right;
+	background-color: LightGray;
+	padding:1%;
+	height: 505px;
+	margin-top:-1%;
+	
+}
+
+.centerColumnPage {
+	width: 50%;
+	float: right;
+	background-color: LightGray;
+	padding:1%;
+	height: 505px;
+	margin-top:-1%;
+	margin-bottom:1%;
+}
+
+.leftSideColumnPage {
+	width: 25%;
+	float: right;
+	background-color: LightGray;
+	padding:1%;
+	height: 505px;
+	margin-top:-1%;
+}
+
+form {
+  margin: 0em auto;
+  width: 85%;
+  padding: 1em;
+  display: block;
+}
+
+.formBorder {
+	border: 1px solid #CCC;
+	border-radius: 1em;
+	margin-top:18px;
+}
+form div + div {
+  margin-top: 1em;
+}
+
+fieldset {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    min-width: -webkit-min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+
+#msg {
+	vertical-align: top;
+	width: 99%;
+	height: 7em;
+	border: 1px solid #999;
+	box-sizing: border-box; 
+	font: 1em sans-serif;
+	resize:none;
+}
+
+button {
+  /* /* This extra margin represent roughly the same space as the space */
+     /* between the labels and their text fields */ */
+	/* margin-left: 3.7em; */
+	/* -moz-border-radius: 5px; */
+	/* -webkit-border-radius: 5px; */
+	/* border-radius: 5px; */
+}
+.button {
+	  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+	margin-left: 2.9em;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding:6% 15% 6% 15%;
+	background-color:green;
+	background-color: rgba(88, 0, 8, 0.8);
+	background-color: rgba(222, 23, 8, 0.8);
+	color:blue;
+	
+}
+/* =============================================AUTOMATED SLIDING======================== */
+* {box-sizing: border-box;}
+.active {
+  background-color: #717171;
+  border-radius:21%;
+}
