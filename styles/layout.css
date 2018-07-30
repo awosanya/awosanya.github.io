@@ -1,11 +1,6 @@
 
 /* GENERAL PAGE LAYOUT  --- background-image:url('banner-mainNN.jpg');*/
-body {
-	background-color:black;
-	width: 100%;
-	margin: auto;
-	display:block;
-}
+
 
 #content {
 	overflow: auto;
@@ -17,44 +12,16 @@ body {
 	padding-left:7%;
 	padding-top: 3%;
 }
-/* -----------------------------------------HOME PAGE LAYOUT ----------------------------------------------*/
-.rightSideColumnPage {
-	width: 22%;
-	float: right;
-	background-color: green;
-	padding:1%;
-	height: 1059px;
-	margin-top:-1%;
-	
-}
 
-.centerColumnPage {
-	width: 50%;
-	float: right;
-	background-color: white;
-	padding:1%;
-	height: 1090px;
-	margin-top:-2%;
-	margin-bottom:1%;
-}
-
-.leftSideColumnPage {
-	width: 22%;
-	float: right;
-	background-color: green;
-	padding:1%;
-	height: 1059px;
-	margin-top:-1%;
-}
 
 /*---------------------------------------------- ABOUT FORMATING -------------------------------------------*/
 #aboutMeMainPage {
 	background-color:black; 
-	height: 196.9em;
+	height: 203.9em;
 }
 
 #aboutMePageSub2 {
-	width:26%; 
+	width:26.5%; 
 	height:99%; 
 	margin:0%; 
 	float:right;
@@ -73,28 +40,30 @@ body {
 
 /* ----------------------------------------------RESUME FORMATING ------------------------------------*/
 
+	
+#resumeMainPage {
+	background-color:black; 
+	height:2677px;
+	}
+	
 #resumeMainPageSub1 {
 	background-color:white;
 	width:65%; 
-	height:97%; 
+	height:99%; 
 	border-radius:30px; 
 	margin:2%;
 	float:left;
 	}
 	
 #resumeMainPageSub2 {
-	background-color: #efefef;
+	/* background-color: #efefef; */
 	width:26%;
-	height:97%;
+	height:99%;
 	border-radius:30px;
 	margin:2%; 
 	float:left;
 }
-	
-#resumeMainPage {
-	background-color:black; 
-	height:1659px;
-	}
+
 	
 
 /* ------------------------------------------------MY BLOGS LAYOUT------------------------------------------*/
@@ -125,7 +94,7 @@ body {
 /* --------------------------------------------------PORTFOLIO------------------------------- */
 #portfolioMainPage {
 	background-color:black; 
-	height: 36.9em;
+	height: 38.9em;
 }
 
 #portfolioPageSub2 {

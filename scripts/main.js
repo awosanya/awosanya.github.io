@@ -1,4 +1,4 @@
-// document.querySelector('html').onload = alert('Welcome To My Personal Website...<br/>This is my Vision Beyond My Mission');
+//document.querySelector('html').onload = alert('Welcome To My Personal Website...<br/>This is my Vision Beyond My Mission');
 
 
 // DISPLAYING TEXT ON THE WEB PAGE

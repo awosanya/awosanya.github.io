@@ -34,7 +34,7 @@ figcaption {
 
 #qouteAnimation {
   animation-name: quotesWriteUp;
-  animation-duration: .3s;
+  animation-duration: .9s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
