@@ -3,17 +3,29 @@
 <html lang="en-US">
  <head>
 	<title>Oladimeji Awosanya-BookKeeper,Front End Developer</title>
+	
+	<!-- Bootstrap --> 
+		<link href="css/bootstrap.min.css" rel="stylesheet"> 
+	
+	<!-- My CSS -->
 	<link href="styles/style.css" media="screen" rel="stylesheet" type="text/css">
-	<link href="styles/layout.css" media="screen" rel="stylesheet" type="text/css">
 	<link href="styles/animations.css" media="screen" rel="stylesheet" type="text/css">
+	
+	<!-- META DATA -->
     <meta charset="utf-8">
-		<meta name="author" content="OLADIMEJI AWOSANYA - Python Developer">
-		<meta name="keywords" content="Web Designer, Web Developer, programmers, BookKeeping, Accountant,Accounting, Payroll officer,Python programmer">
-		<meta name="description" content="This is my Personal Website where i share what i encounter on the web or study in which it might be of help to you... It's also a medium of sharing my curiousity about life ...">
+		<meta name="author" content="OLADIMEJI AWOSANYA - Front End Developer">
+		<meta name="keywords" content="Web Designer, Web Developer, programmers, BookKeeping, Accountant,Accounting, Payroll officer,
+		Python programmer">
+		<meta name="description" content="I'm a full stack developer with a background in Accounting . I have worked on Accounting packages, 
+		Python GUI products and some data programs to experiment with Data Analysis. I came out of Accounting to web & software development and 
+		developed a passion for Python and Django frameworks...My Website It's also a medium of sharing my curiousity about life ...">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 		<!-- FACEOOK META -->
 		<meta property="og:image" content="https://developer.cdn.mozilla.net/static/img/opengraph-logo.dc4e08e2f6af.png">
-		<meta property="og:description" content="This is my Personal Website where i share what i encounter on the web or study in which it might be of help to you... It's also a medium of sharing my curiousity about life ...">
+		<meta property="og:description" content="I'm a full stack developer with a background in Accounting . I have worked on Accounting packages, 
+		Python GUI products and some data programs to experiment with Data Analysis. I came out of Accounting to web & software development and 
+		developed a passion for Python and Django frameworks...My Website It's also a medium of sharing my curiousity about life ...">
 		<meta property="og:title" content="Oladimeji .O. Awosanya Website's">
 		
 		<!-- TWITTER META -->
@@ -22,164 +34,195 @@
 	<!-- ICON -->
 	<link rel="shortcut icon" href="faviconNnn.ico" type="image/x-icon">  
  </head>
- <body style="background-image: url('images/xmasBackground.jpg');"> 
- <header>
+ 
+ <body style="background-color:black;"> 
+	<header>
 	<!-- HEADER BAR  -->
-  <nav style="margin-top:-1%;">
-    <ul class = "upperLayer">
-		<img src="images/oladimeji1.jpg"  alt="Oladimeji-Awosanya" class="imgClass">
-		<li class="headerNavBar"><a href="index.html">Home</a></li>
-		<li class="headerNavBar"><a href="About-Me.html">About Oladimeji</a></li>
-		<li class="headerNavBar"><a href="portfolio.html">Porfolio</a></li>
-		<li class="headerNavBar"><a href="">LifeStream</a></li>
-		<li class="headerNavBar"><a href="blogs-Oladimeji-Awosanya.html">Blogs</a></li>
-		<p id="qouteAnimation"  class="qouteNavBar "><q>Don’t underestimate me. I know more than I say, I think more than I speak and I notice more than you realize.</q></p>
-	</ul>
-  </nav>
-  </header>
+	<div class="container bg-light">
+		<div class="row">
+			<div class="col-sm-3 justify-content-start">
+				<img src="images/oladimeji1.jpg"  alt="Oladimeji-Awosanya" class="rounded-circle mt-3">
+			</div>
+			
+			<div class="col-sm-9">
+			  <nav>
+				<ul class="nav justify-content-end">
+					<li class=" nav-items btn btn-light" ><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-items btn btn-light "><a href="About-Me.html" class="nav-link">About Oladimeji</a></li>
+					<li class="nav-items btn btn-light "><a href="portfolio.html" class="nav-link">Porfolio</a></li>
+					<li class="nav-items btn btn-light "><a href="https://oladimejiawosanya.blogspot.com" alt="My_Blogs" class="nav-link">Blog</a></li>
+				</ul>
+			  </nav>
+			</div>
+		<div class="row">
+			<div class="col-sm-2"  style="text-align:center;">
+				<p></p>
+			</div>
+			<div class="col-sm-10">
+				<p id="qouteAnimation" >Don’t underestimate me. I know more than I say, I think more than I speak and I 
+				notice more than you realize.</p>
+			</div>
+		</div>
+		</div>
+	</div>
+	</header>
   
 	<!-- LOGO IMAGE AND PAGE HEADER -->
-<section> 
-  <article style="margin-top:-19%; width:100%;">
-  <div style="background-image:url('images/img1.jpg'); background-repeat:no-repeat; background-position:center; display:block;background-color:black;
-  margin-top:-2%;">
-	<div style="margin-top:20%;">
-		<p class="headingDisplay">Oladimeji .O. Awosanya</p>
-		<p style="text-align:center;margin-top:-7%;margin-bottom:1%;color:white;font-size:24px;text-shadow: 0.1em 0.1em 0.2em red;"> I'm a 
-		<span style="color:yellow;">Full Stack Programmer</span> With
-		<span style="color:yellow;">Accounting</span> Background</p>
-		<br/>
-		<p class="skillSet">Skill Set </p>
-		<p class="webDiscription">BookKeeping | Financial Settlement | Financial Reconciliation | Data Entry & Analysis | Audit | 
-		Front End Developing (Tools: HTML5, CSS3, Bootstrap4, JS, JQuery) | Responsive Web Design | Back End Developing (Tools: Python,Django, SQL, My-SQL, MongoDB) |
-		| Software Development (GUI) | Web Minning  | Search Engine Optimization (SEO)| Version control (Git/Github) | Cross Platform compability | 
-		Admin Support or Assistance | Quantitative developing | Quantative Research	 | Virtual Assistant/Internet Research | Teaching and Tutoring | 
-		</p>
-	<br/>
-	<br/>
-  </div>
-  </article>
+	<section> 
+	<div class="container" style="background-image:url('images/teachingandimpacting.jpeg'); background-repeat:no-repeat; background-position:center; 
+			display:block;background-color:black;">
+		<div class="row" >
+			<div class="col-sm">
+					<p class="headingDisplay">Oladimeji .O. Awosanya</p>
+					<p class="professionDisciption"> I'm an <span style="color:yellow;">Accountant</span> and
+					<span style="color:yellow;">Full Stack Programmer</span></p>
+					<p class="skillSetHeading">Skill Set </p>
+					<p class="text-light m-4">BookKeeping | Financial Settlement | Financial Reconciliation | Data Entry & Analysis | Audit | 
+					Front End Developing (Tools: HTML5, CSS3, Bootstrap4, JS, JQuery) | Responsive Web Design | Back End Developing (Tools: 
+					Python,Django, SQL, My-SQL, MongoDB)| Software Development (GUI) | Web Minning  | Search Engine Optimization (SEO)| 
+					Version control (Git/Github) | Cross Platform compability | Admin Support or Assistance | Quantitative developing | 
+					Quantative Research	 | Virtual Assistant/Internet Research | Teaching and Tutoring | </p>
+			</div>
+		</div>
+	</div>
+	  
 
-  <!-- CENTER PAGE -->
-  <article>
-  <div class="centerColumnPage">
-	<h3 id="welComePage">Welcome To My Personal Website ...!</h3>
-	<p id="discriptionParagraph">This is my Vision Beyond Mission</p><br/>
-	<p class="pageParagraphy">I'm a full stack developer with a background in Accounting . I have worked on Accounting packages, Python GUI products and some data programs to experiment with Data Analysis. I came out of Accounting to web & software development and developed a passion for Python and Django frameworks after working on several projects using Python Programming Language.</p>
-	
-	<p class="pageParagraphy">Accounting as a profession gives me a vision towards Data Science & Analysis and Presentation using the skill acquired in one of the Python Modules for effective Computation and Presentation delivery. </p>
-	<p class="pageParagraphy">Check out my <a href="resume.html">Resume</a>.</p>
-	<p class="pageParagraphy">Tools I often use for Effective delivery are:</p>
-	<ul>
-		<li>My Arithemics Instint / Accounting Principles & Curiosity - For Challenges</li>
-		<li>EXCEL & CSV - For Storage, Presentation & Analysis</li>
-		<li>HTLM(5) - For Web Structuring & Presentation</li>
-		<li>CSS(3) - For Styling & Animation</li>
-		<li>Bootstrap4</li>
-		<li>JavaScript - For Responsive Styling & Animation</li>
-		<li>JQuery</li>
-		<li>Python - For Backend Structuring, Software (GUI) Development & Automation of Boring Stuff</li>
-		<li>Django - For Server side Scripting</li>
-		<li>SQL</li>
-		<li>My-SQL</li>
-		<li>MongoDB</li>
-		
-	</ul>
-  <p class="pageParagraphy">You can know more about me from the following Communities and Hangouts below.</p>
-  <p class="pageParagraphy">Apart from coding and doing some Fianacial Accounting computation and Arithemics logics, Other activities i love involving myself are ;
-	<ul>
-		<li>Meetup group activities like
-		<ul>
-			<li>Visiting the Less previledge Home at various NGO</li>
-			<li>Visiting game Camp ; Cheese Game, Card Game, Acade etc</li>
-			<li>Visiting BootCamps </li>
-		</ul>
-		</li>
-		<br/>
-		<li>Teaching and Tutoring:
-			<ul>
-			<li>Calculation Things and Coding: Accounting, Economics, Mathematics, HTML, CSS, Python Programming Language from Different Levels: High School, Jambite, College, ICAN, ACCA and Other related Professional programs  </li>
-			</ul>
-		</li>
-		<br/>
-		<li>Internet Research :
-			<ul>
-			<li>Things i Stumbled on my Might help you ... Check my <a href="blogs-Oladimeji-Awosanya.html">Blog</a> for regular update</li>
-			</ul>
-		</li>
-	</ul>
-	</p>
-	<br/>
-	<br/>
-	<p class="pageParagraphy"><a href="https://www.clixsense.com/?13265906" target="_blank" style="border:none;"><img src="https://csstatic.com/banners/clixsense_gpt2016e468x60blue.png" border=0></a></p>
-  </div>
-  </article>
-  <!-- RIGHT COLUMN SIDE BAR -->
-  <article>
-	
-  <div class="rightSideColumnPage">
-	<section>
-		<p class="getHired">Looking for Job...?<br/><br/><span id="gethiredAlart"><a href="https://hired.com/x/630xp" target="_blank"> Get Hired</a> </span><br/><br/>Now...!</p>
-	</section>
-	<section>
-		<!-- Clicksor.COM -->
-		<p style="padding-left:9%;"><a href="http://signup.clicksor.com/advertise_here.php?nid=1&srid=&ref=391605" target="_blank" style="border:none;"><img src="http://signup.clicksor.com/publisher/images/pub/180x60_2.gif" border=0></a></p>
-		<!-- Clicksor.COM -->
-	</section>
-	<section>
-		<p></p>
-	</section>
-  </div>
-	<hr/>
- </article>
- </section>
-  <!---------------------------------------------FOOTER THINGS ------------------------------------------------>
-	<footer class="footMate">
-		<div class="footColumnContainer">
-			<nav class="footPadding">
-				<h3 class="footLinks" >USEFUL LINKS </h3>
+	  <!-- CENTER PAGE -->
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4 bg-success p-4" >
+				<p class="getHired">Looking for Job...? <span id="gethiredAlart"><a href="https://hired.com/x/630xp" target="_blank"> 
+				Get Hired</a> </span></p>
+				<!-- Clicksor.COM -->
+				<p><a href="http://signup.clicksor.com/advertise_here.php?nid=1&srid=&ref=391605" target="_blank" 
+				style="border:none;"><img src="http://signup.clicksor.com/publisher/images/pub/180x60_2.gif" border=0></a></p>
+				<!-- Clicksor.COM -->
+			</div>
+			
+			<div class="col-sm-8 bg-light p-5"  >
+			  <article>
+				<h3 class="text-center">Welcome To My Personal Website ...!</h3>
+				<p id="discriptionParagraph">This is my Vision Beyond Mission</p><br/>
+				<p>I'm a full stack developer with a background in Accounting . I have worked on Accounting packages, Python GUI products and some 
+				data programs to experiment with Data Analysis. I came out of Accounting to web & software development and developed a passion for 
+				Python and Django frameworks after working on several projects using Python Programming Language.</p>
+				<p>Accounting as a profession gives me a vision towards Data Science & Analysis and Presentation using the skill acquired in one of the Python Modules for effective Computation and Presentation delivery. </p>
+				<p>Check out my <a href="resume.html">Resume</a>.</p>
+				<p>Tools I often use for Effective delivery are:</p>
 				<ul>
-					<li><a href="sitemap.html" style="border:none;">Web site Directory</a></li>
-					<li><a href="portfolio.html" title="" style="border:none;">Portfolio</a></li>
-					<li><a href="blogs-Oladimeji-Awosanya.html" style="border:none;">Blog</a></li>
-					<li><a href="About-Me.html" style="border:none;">About Oladimeji</a></li>
-					<li><a href="#" style="border:none;">Soccer Focast Tip</a></li>
-					<li><a href="resume.html" style="border:none;">Curriculum Vital</a></li>
+					<li>My Arithemics Instint / Accounting Principles & Curiosity - For Challenges</li>
+					<li>EXCEL & CSV - For Storage, Presentation & Analysis</li>
+					<li>HTLM(5) - For Web Structuring & Presentation</li>
+					<li>CSS(3) - For Styling & Animation</li>
+					<li>Bootstrap4</li>
+					<li>JavaScript - For Responsive Styling & Animation</li>
+					<li>JQuery</li>
+					<li>Python - For Backend Structuring, Software (GUI) Development & Automation of Boring Stuff</li>
+					<li>Django - For Server side Scripting</li>
+					<li>SQL</li>
+					<li>My-SQL</li>
+					<li>MongoDB</li>
+					
 				</ul>
-			</nav>
-		</div>
-		<div class="footColumnContainer">
-			<nav class="footPadding">
-				<h3 class="footLinks">OTHER PROFILES</h3>
+			  <p>You can know more about me from the following Communities and Hangouts below.</p>
+			  <p>Apart from coding and doing some Fianacial Accounting computation and Arithemics logics, Other activities i love involving myself are ;
 				<ul>
-					<li><a href="#" style="border:none;">GitHub </a></li>
-					<li><a href="https://www.quora.com/profile/Awosanya-Oladimeji-Opeyemi" style="border:none;">Quora </a></li>
-					<li><a href="https://stackoverflow.com/users/6913264/pleasantoladimeji?tab=profile" style="border:none;">Stack Overflow</a></li>
-					<li><a href="#" style="border:none;">Dribble </a></li>
-					<li><a href="#" style="border:none;">Lagos Meetup Game </a></li>
-					<li><a href="https://www.reddit.com/user/PleasantOladimeji/" style="border:none;">Raddit Comunity</a></li>
-				</ul>
-			</nav>
-		</div>
-		<div style="width:35%;" class="footColumnContainer">
-			<address class="footPadding">
-				<h3 class="footLinks">CONTACTS</h3>
-				<p><b>Call On:</b><br/> Phone : 08130234460 | (WHATSAPP)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09097336680<br/> E-mail: <a href="mailto:awosanya.oladimeji@gmail.com?subject=Enquire From Website" style="border:none;"><span class="email">awosanya.oladimeji@gmail.com</span></a></p>
-				<nav>
+					<li>Meetup group activities like
 					<ul>
-					<li class="footContact"><a href="https://web.facebook.com/pleasantoladimeji" style="border:none;"><img src="images/facebook.png"  alt="facebook"></a> </li>
-					<li class="footContact"><a href="www.googleplus.com/sir.oladimeji" style="border:none;"><img src="images/googleplus.png"  alt="GooglePlus "></a> </li>
-					<li class="footContact"><a href="https://www.linkedin.com/in/oladimeji-opeyemi-awosanya-b1a59ba0/" style="border:none;"><img src="images/linkedin.png"  alt="Linkedin-Professional Profile "></a> </li>
+						<li>Visiting the Less previledge Home at various NGO</li>
+						<li>Visiting game Camp ; Cheese Game, Card Game, Acade etc</li>
+						<li>Visiting BootCamps </li>
+					</ul>
+					</li>
+					<br/>
+					<li>Teaching and Tutoring:
+						<ul>
+						<li>Calculation Things and Coding: Accounting, Economics, Mathematics, HTML, CSS, Python Programming Language from Different Levels: High School, Jambite, College, ICAN, ACCA and Other related Professional programs  </li>
+						</ul>
+					</li>
+					<br/>
+					<li>Internet Research :
+						<ul>
+						<li>Things i Stumbled on my Might help you ... Check my <a href="https://oladimejiawosanya.blogspot.com">Blog</a> for regular update</li>
+						</ul>
+					</li>
 				</ul>
-				</nav>
-			</address>
+				</p>
+				<br/>
+				<br/>
+				<p><a href="https://www.clixsense.com/?13265906" target="_blank" style="border:none;"><img src="https://csstatic.com/banners/clixsense_gpt2016e468x60blue.png" border=0></a></p>
+			  </div>
+			  </article>
+			  <!-- RIGHT COLUMN SIDE BAR -->
+			  <article>
+			
+		</div>
+	</div>
+		
+	
+	</section>
+	  <!---------------------------------------------FOOTER THINGS ------------------------------------------------>
+	<footer>
+		<div class="container" style="background-image:url('images/fotmart.jpg'); background-repeat:no-repeat; background-position:center;">
+			<div class="row text-white" >
+				<div class="col-sm-4 mt-5 mb-5 pl-5">
+					<nav>
+						<h3>USEFUL LINKS </h3>
+						<ul>
+							<li><a href="sitemap.html" style="border:none;">Web site Directory</a></li>
+							<li><a href="portfolio.html" title="" style="border:none;">Portfolio</a></li>
+							<li><a href="blogs-Oladimeji-Awosanya.html" style="border:none;">Blog</a></li>
+							<li><a href="About-Me.html" style="border:none;">About Oladimeji</a></li>
+							<li><a href="#" style="border:none;">Soccer Focast Tip</a></li>
+							<li><a href="resume.html" style="border:none;">Curriculum Vital</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-sm-4 mt-5 mb-5">
+					<nav class="footPadding">
+						<h3 class="footLinks">SERVICES</h3>
+						<ul>
+							<li>BookKeeping </li>
+							<li>Fianacial Data Entry & Analysis</li>
+							<li>Auditing</li>
+							<li>Web Minning</li>
+							<li>Teaching and Tutoring </li>
+							<li>Web /UX & Software Development</li>
+							<li>Internet Research</li>
+							<li>Search Engine Optimization (SEO)</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-sm-4 mt-5 mb-5">
+					<address class="footPadding">
+						<h3 class="footLinks">CONTACTS</h3>
+						<p><b>Call On:</b><br/> Phone : 08130234460 | (WHATSAPP)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09097336680<br/> E-mail: <a href="mailto:awosanya.oladimeji@gmail.com?subject=Enquire From Website" style="border:none;"><span class="email">awosanya.oladimeji@gmail.com</span></a></p>
+						<nav>
+							<ul>
+							<li class="footContact"><a href="https://web.facebook.com/pleasantoladimeji" style="border:none;"><img src="images/facebook.png"  alt="facebook"></a> </li>
+							<li class="footContact"><a href="www.googleplus.com/sir.oladimeji" style="border:none;"><img src="images/googleplus.png"  alt="GooglePlus "></a> </li>
+							<li class="footContact"><a href="https://www.linkedin.com/in/oladimeji-opeyemi-awosanya-b1a59ba0/" style="border:none;"><img src="images/linkedin.png"  alt="Linkedin-Professional Profile "></a> </li>
+						</ul>
+						</nav>
+					</address>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm m-3">
+				<p style="color:red; text-align:center;"> Copyright &copy 2018 <a href="awosanya.github.io"><img src="images/MYLOGO.png " 
+				height ="55px"/></a>. All right reserved </p>
+			</div>
 		</div>
 	</footer>
-	<div>
-	<p style="color:red; text-align:center;"> Copyright &copy 2018 <a href="awosanya.github.io"><img src="images/MYLOGO.png " height ="55px"/></a>. All right reserved </p>
-	</div>
- <script src="scripts/main.js" defer></script>
- <script type="text/javascript"> var infolinks_pid = 3112419; var infolinks_wsid = 0; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+	 
+<script src="scripts/main.js" defer></script>
+<script type="text/javascript"> var infolinks_pid = 3112419; var infolinks_wsid = 0; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="https://code.jquery.com/jquery.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script> 
 
  </body>
 </html>
