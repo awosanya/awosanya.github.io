@@ -1,0 +1,65 @@
+import random
+### FILLING WILD AND UNPLEASANTRY THIS DAY ...I WROTE THIS CODE SNIPPET NOT QUIET LONG AND ON PICKING THE OUTCOME TO GIVE A TRY , 
+IT WON ME A JACKPOT OF 3600 NAIRA ON PERM LOTTERY ### 
+      ###  OLADIMEJI OPEYEMI AWOSANYA ###
+
+def selectingFiveNumber():
+  #CELLTECTING 10 NUMBERS WITHOUT REPLACEMENT FROM 1 TO 99
+  possibleCombinations20numbers = []
+  addUp = []
+  randomSample = [1, 2, 3, 4, 5, 6, 9, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+  
+  while len(possibleCombinations20numbers) < 3:
+    fiveNumberSelection = random.sample(randomSample, k=5)
+    deltaNumber = selectionOfDeltaNumber(fiveNumberSelection)
+    possibleCombinations20numbers.append(deltaNumber)
+  else:
+    for items in possibleCombinations20numbers:
+      addUp += items 
+  
+  oneList = conbineToASingleList(addUp)
+  threeNumberWin = perm3(oneList)
+  return threeNumberWin
+   
+
+def perm3(oneList):
+  count = 0
+  newpossibleSelection = []
+  while count < 6:
+    newpossibleSelection.append(random.choices(oneList, k = 3))
+    count += 1
+  else:
+    return newpossibleSelection
+
+def conbineToASingleList(addUp):
+  #TO TURN THE MULTIPLE ARRAY TO SINGLE ARRAY
+  numberInList = len(addUp)
+  count = 0
+  oneListArray = []
+  while count < numberInList:
+    for items in addUp:
+      oneListArray += items
+    count +=1
+  else:
+    return oneListArray
+
+
+def selectionOfDeltaNumber(fiveNumberSelection):
+  #CALCULATING IN DELTA FORM BY ARRANGE IN ORDER AND MINUSING SEQUENCIALLY 
+  deltaCalculation =[]
+  deltaSelection = []
+  rearrange10SelectedNumber = sorted(fiveNumberSelection)
+  deltaCalculation.append(rearrange10SelectedNumber[0]) 
+  deltaCalculation.append(rearrange10SelectedNumber[1] - rearrange10SelectedNumber[0]) 
+  deltaCalculation.append(rearrange10SelectedNumber[2] - rearrange10SelectedNumber[1]) 
+  deltaCalculation.append(rearrange10SelectedNumber[3] - rearrange10SelectedNumber[2]) 
+  deltaCalculation.append(rearrange10SelectedNumber[4] - rearrange10SelectedNumber[3]) 
+
+  if sum(deltaCalculation) >= 82 : 
+    deltaSelection.append(rearrange10SelectedNumber)
+  
+  return deltaSelection
+
+
+
+print(selectingFiveNumber())
