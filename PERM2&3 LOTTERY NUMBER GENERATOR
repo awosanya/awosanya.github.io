@@ -1,6 +1,5 @@
 import random
-### FILLING WILD AND UNPLEASANTRY THIS DAY ...I WROTE THIS CODE SNIPPET NOT QUIET LONG AND ON PICKING THE OUTCOME TO GIVE A TRY , 
-IT WON ME A JACKPOT OF 3600 NAIRA ON PERM LOTTERY ### 
+### FILLING WILD AND UNPLEASANTRY THIS DAY ...I WROTE THIS CODE SNIPPET NOT QUIET LONG AND ON PICKING THE OUTCOME TO GIVE A TRY , IT WON ME A JACKPOT OF 3600 NAIRA ON PERM LOTTERY ### 
       ###  OLADIMEJI OPEYEMI AWOSANYA ###
 
 def selectingFiveNumber():
@@ -25,8 +24,8 @@ def selectingFiveNumber():
 def perm3(oneList):
   count = 0
   newpossibleSelection = []
-  while count < 6:
-    newpossibleSelection.append(random.choices(oneList, k = 3))
+  while count < 5:
+    newpossibleSelection.append(random.sample(oneList, k = 3))
     count += 1
   else:
     return newpossibleSelection
@@ -46,8 +45,9 @@ def conbineToASingleList(addUp):
 
 def selectionOfDeltaNumber(fiveNumberSelection):
   #CALCULATING IN DELTA FORM BY ARRANGE IN ORDER AND MINUSING SEQUENCIALLY 
-  deltaCalculation =[]
   deltaSelection = []
+  deltaCalculation =[]
+  
   rearrange10SelectedNumber = sorted(fiveNumberSelection)
   deltaCalculation.append(rearrange10SelectedNumber[0]) 
   deltaCalculation.append(rearrange10SelectedNumber[1] - rearrange10SelectedNumber[0]) 
@@ -55,8 +55,13 @@ def selectionOfDeltaNumber(fiveNumberSelection):
   deltaCalculation.append(rearrange10SelectedNumber[3] - rearrange10SelectedNumber[2]) 
   deltaCalculation.append(rearrange10SelectedNumber[4] - rearrange10SelectedNumber[3]) 
 
-  if sum(deltaCalculation) >= 82 : 
-    deltaSelection.append(rearrange10SelectedNumber)
+  if sum(deltaCalculation) >= 73 : 
+    for num in deltaCalculation:
+      doubleNum = str(num)
+      if num in [1, 2, 4,  6, 7, 9, 11, 12, 14, 15, 16, 26, 36] :
+        deltaSelection.append(rearrange10SelectedNumber)
+      else:
+        pass 
   
   return deltaSelection
 
