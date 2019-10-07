@@ -1,76 +1,73 @@
+import random
 
 def playPERM3():
   make10Numbers = []
-  while len(make10Numbers) == 2:
+  while len(make10Numbers) <= 1:
     randomSelection = selectingFiveNumber()
     make10Numbers.append(randomSelection)
-  else:
-    randomUnionSet = make10Numbers[0] + make10Numbers[1]
-    removeDuplicate = set(randomUnionSet)
-    returnList = list(removeDuplicate)
-    surfForPERMS = perm3Random(returnList)
-    return surfForPERMS
-  return
-
-
-  return
+  firstPart = make10Numbers[0][5][0]
+  secondPart = make10Numbers[1][5][0]
+  aList = firstPart + secondPart
+  surfForPERMS = perm3Random(aList)
+  return surfForPERMS
 
 def selectingFiveNumber():
   fiveNumbers = []
-  randomSample = [1, 2, 3, 4, 5, 6, 9, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
-  
   while len(fiveNumbers) < 5:
-    randomPicking = random.sample(randomSample, k=5)
-    deltaNumber = selectionOfDeltaNumber(randomPicking)
-    relations = relationAuthentication(deltaNumber)
-    fiveNumbers.append(relations)
+    randomPicking = random.randrange(1,90)
+    if randomPicking not in fiveNumbers:
+      fiveNumbers.append(randomPicking)
+    else:
+        pass
+  deltaNumber = deltaAuthentication(fiveNumbers)
+  relations = relationAuthentication(deltaNumber)  
+  fiveNumbers.append(relations)
     
   return fiveNumbers
 
-def deltaAuthentication(randomPicking):
+def deltaAuthentication(fiveNumbers):
   deltaSelection = []
   deltaCalculation = [] 
   
-  sortRandomPick = sorted(randomPicking)
+  sortRandomPick = sorted(fiveNumbers)
   deltaCalculation.append(sortRandomPick[0]) 
   deltaCalculation.append(sortRandomPick[1] - sortRandomPick[0]) 
   deltaCalculation.append(sortRandomPick[2] - sortRandomPick[1]) 
   deltaCalculation.append(sortRandomPick[3] - sortRandomPick[2]) 
   deltaCalculation.append(sortRandomPick[4] - sortRandomPick[3]) 
   
-  if (sum(deltaCalculation) in range(28,92)) and (sum(sortRandomPick) in range(109,340)): 
-    for num in deltaCalculation:
-      doubleNum = str(num)
-      if num in range(0,44) or [46,49,51,53,58] :
-        deltaSelection.append(sortRandomPick)
-      else:
-        pass 
+  if (sum(deltaCalculation) in range(28,92)) and (sum(sortRandomPick) in range(109,340)):
+    deltaSelection.append(sortRandomPick)
+  else:
+    pass 
   return deltaSelection
-
 
 def relationAuthentication(deltaNumber):
 
-  a1 = deltaNumber[0]/(deltaNumber[0]+deltaNumber[1]) 
-  a2 = deltaNumber[1]/(deltaNumber[0]+deltaNumber[1])
+  a1 = deltaNumber[0][0]/(deltaNumber[0][0]+deltaNumber[0][1]) 
+  a2 = deltaNumber[0][1]/(deltaNumber[0][0]+deltaNumber[0][1])
 
-  a3 = deltaNumber[1]/(deltaNumber[1]+deltaNumber[2])
-  a4 = deltaNumber[2]/(deltaNumber[1]+deltaNumber[2])
+  a3 = deltaNumber[0][1]/(deltaNumber[0][1]+deltaNumber[0][2])
+  a4 = deltaNumber[0][2]/(deltaNumber[0][1]+deltaNumber[0][2])
 
-  a5 = deltaNumber[2]/(deltaNumber[2]+deltaNumber[3])
-  a6 = deltaNumber[3]/(deltaNumber[2]+deltaNumber[3])
+  a5 = deltaNumber[0][2]/(deltaNumber[0][2]+deltaNumber[0][3])
+  a6 = deltaNumber[0][3]/(deltaNumber[0][2]+deltaNumber[0][3])
 
-  a5 = deltaNumber[3]/(deltaNumber[3]+deltaNumber[4])
-  a6 = deltaNumber[4]/(deltaNumber[3]+deltaNumber[4])
+  a7 = deltaNumber[0][3]/(deltaNumber[0][3]+deltaNumber[0][4])
+  a8 = deltaNumber[0][4]/(deltaNumber[0][3]+deltaNumber[0][4])
 
-  sumTotal = a1 + a2 + a3 + a4 + a5 + a6
-  if sumTotal == 4:
-    return deltaNumber
-
-
-def perm3Random(make10Numbers):
-  thriceSelection = []
-  while len(thriceSelection) < 11:
-    randomPickingThree = random.sample(randomSample, k=3)
-    thriceSelection.append(randomPickingThree)
+  sumTotal = a1 + a2 + a3 + a4  + a5 + a6 + a7 + a8
+  if sumTotal != 4:
+    pass
   else:
-    return thriceSelection
+    return deltaNumber
+  
+def perm3Random(aList):
+  thriceSelection = []
+  while len(thriceSelection) < 1:
+    randomPickingThree = random.sample(aList, k=3)
+    thriceSelection.append(randomPickingThree)
+  
+  return thriceSelection
+
+print(playPERM3())
