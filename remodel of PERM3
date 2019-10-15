@@ -13,10 +13,12 @@ def playPERM3():
 
 def selectingFiveNumber():
   fiveNumbers = []
+  previousWinningNumber = [90, 19 ,54, 65, 40, 15, 61 , 67, 40, 69,89,71,4,78,64,68,8,86,38,12,72,39,3,46,20]
   while len(fiveNumbers) < 5:
     randomPicking = random.randrange(1,90)
-    if randomPicking not in fiveNumbers:
-      fiveNumbers.append(randomPicking)
+    if randomPicking not in previousWinningNumber:
+      if randomPicking not in fiveNumbers:
+        fiveNumbers.append(randomPicking)
     else:
         pass
   deltaNumber = deltaAuthentication(fiveNumbers)
