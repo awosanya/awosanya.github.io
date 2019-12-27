@@ -1,188 +1,52 @@
 /*--------------------------------------------- GENERAL STYLING------------------------------------------- */
-body {
-	background-color:black;
-	width: 70%;
-	margin: auto;
-	display:block;
+.headingDisplay {
+	font-family: Edwardian Script ITC;
+	font-size: 45px;
+	text-align: center;	
+	text-shadow: 3px 3px 1px blue;
+	padding-top: 3%;
+	color: white;
 }
 
-nav, article, footer { display:block;}
-
-header {
-	background-color:white; 
-	text-align:center; 
-	margin:auto;
-	display:block;
-}
-
-section {
-	margin: auto;
-	display:block;
-}
-
-footer {
-	margin: auto;
-	display:block;
-}
-
-.upperLayer {
-	display:inline-block;
-	background-color: white; 
-	height:10%;
-	line-height:30px; 
-	text-align: right;
-	padding-top: 6%;
-	margin-top: -2%;
-	padding-bottom: 1%;
-	padding-left: 1%;
-	margin-bottom:-1%;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	border-radius: 8px;
-	-webkit-box-shadow: inset 0px 0px 8px rgba(88, 83, 74, .2);
-	-moz-box-shadow: inset 1px 0px 1px rgba(88, 83, 74, .2);
-	box-shadow: inset 0px 0px 1px rgba(88, 83, 74, .2); 
-}
-
-.imgClass {
-  display: block;
-  margin: 0% auto;
-  height:100px;
-  border-radius:10%;
-  box-shadow: 0 0 6px 6px #888; 
-  float:left;
-  padding-left: 0%;
-  width:10%;
-}
-
-.headerNavBar {
-	display: inline;
-	padding-right:1%;
-	margin-bottom:0;
-}
-
-
-.skillSet {
+.skillSetHeading {
 	text-align:center;
-	display: block;
-	color:red;
-	margin-top:1%;	
+	/* display: block; */
+	color:red;	
 	font-weight:bold;
 	font-style:italic;
 	font-size:35px;
 	font-family:Vivaldi;
 }
 
-.webDiscription {
-	margin-bottom: -2%;
-	padding-left:3%;
-	padding-right:3%;
-	padding-bottom:4%;
+.professionDisciption {
+	text-align:center;
 	color:white;
+	font-size:24px;
+	text-shadow: 0.1em 0.1em 0.2em red;
+	margin-top:-3%;
+	padding-bottom:2%;"
+	/* background-color:blue; */
 }
 
-.centerColumnPage {
-	width: 70%;
-	float: right;
-	background-color: white;
-	padding:1%;
-	/* height: 1130px; */
-	margin-top:-2%;
-	margin-bottom:1%;
-}
-
-.rightSideColumnPage {
-	width: 26%;
-	float: right;
-	background-color: green;
-	padding:1%;
-	height: 1069px;
-	margin-top:-2%;
-	
-}
-
-.headingDisplay {
-	font-family: Edwardian Script ITC;
-	font-size: 60px;
-	text-align: center;	
-	text-shadow: 3px 3px 1px blue;
-	color: white;
+.getHired {
+	text-align:center;
 	padding-top:3%;
+	padding-bottom:2%; 
+	border: 3px solid #00FF00;
+	background-color:blue;
+	background-color: rgba(17, 18, 17, .7);
+	font-size:22px;
+	color:white;"
 }
 
 
-/* ----------------------------------------------RESUME FORMATING ------------------------------------*/
-#resumeMainPage {
-	background-color:black; 
-	/* height:2677px; */
-	}
-	
-#resumeMainPageSub1 {
-	background-color:white;
-	width:71%; 
-	border-radius:30px; 
-	float:left;
-	}
-	
-#resumeMainPageSub2 {
-	width:20%;
-	border-radius:30px;
-	margin-left:3%; 
-	float:left;
+#discriptionParagraph {
+	text-align:center;
+	color:red;
+	padding-top: 5%;
+	margin:0px;
 }
 
-#resumeImage {
-	width:85%; 
-	height:170px; 
-	border-radius:60%; 
-	margin-top:10%; 
-	/* margin-left:19%; */
-	/* margin-right:19%; */
-	}
-
-
-
-
-
-
-
-.footerPage {
-	background-color:Silver; 
-	width:100%;
-	/* height:475px; */
-	padding-left:3%;
-	padding-top: 3%;
-	float: left;
-	padding-bottom:3%;
-}
-
-
-
-
-
-
-
-#logoHeader1 {
-	margin-left:22px;
-	position:absolute;
-	
-}
-
-#headerText {
-	color:white; 
-	margin-left:22px;
-	margin-top:0px;
-	margin-bottom:0px;"
-}
-
-#logoHeader {
-	float:right; 
-	width:247px; 
-	height:77px;
-	margin-right:44px; 
-	margin-bottom:0px;
-	padding-left: 0.5em;
-} 
 
 a {
 	padding: 5px;
@@ -225,14 +89,6 @@ a:-webkit-any-link {
 }
 
 
-
-h1 {
-	text-shadow: -3px 2px 0px #514d46; 
-}
-
-h3 {
-	text-align:center;
-}
 
 ul  {
 	padding-left: 0;
@@ -291,22 +147,6 @@ nav {
 	clear:both;
 }
 
-.footColumnContainer1 {
-	width:30%;
-	background-color:red;
-	float:left;
-	height:295px;
-	margin-right:1%;
-}
-
-.footPadding {
-	padding:0% 6% 0% 6%;
-}
-
-.footContact {
-	display: inline;
-	padding:2%;
-}
 
 
 /* -------------------------------------------HOME PAGE STYLING--------------------------------------- */
@@ -326,36 +166,12 @@ nav {
 
 
 
-#welComePage {
-	text-align:center;
-	margin-bottom:0;
-}
-
-#discriptionParagraph {
-	text-align:center;
-	color:red;
-	padding: 0%;
-	margin:0px;
-}
-
-.pageParagraphy {
-	padding-left:2%;
-	padding-right:2%;
-}
 
 
 
 
-.getHired {
-	text-align:center;
-	padding-top:3%;
-	padding-bottom:2%; 
-	border: 3px solid #00FF00;
-	background-color:blue;
-	background-color: rgba(17, 18, 17, .7);
-	font-size:22px;
-	color:white;"
-}
+
+
 
 .qouteNavBar {
 	position:relative;
@@ -589,26 +405,3 @@ legend {
 }
 
 
-
-	/* ------------------------------------------BLOG STYLING -----------------------------------------*/
-	
-.blogBody {
-	height:auto;
-	padding-right:1%;
-}
-
-.blogImage {
-	display: block;
-	margin-top: 5%;
-	margin-left:76%;
-	height: 180px;
-	width: 180px;
-	border-radius:60%;
-	}
-	
-.fakeimg {
-  background-color: #aaa;
-  width: 80%;
-  padding-left: 20px;
-  margin-left:8%;
-}
