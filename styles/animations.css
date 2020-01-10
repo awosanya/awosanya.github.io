@@ -58,3 +58,24 @@ figcaption {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
+
+
+/* ------------------------------------------------GAME-------------------------- */
+
+#gameSlide{ 
+    margin: 0px auto; 
+    position: relative; 
+    width: 100%; 
+    height: 210px; 
+    padding: 0px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#gameSlide > div { 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px; 
+}
+
