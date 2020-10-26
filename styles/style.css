@@ -2,7 +2,7 @@
 .headingDisplay {
 	font-family: Edwardian Script ITC;
 	font-size: 45px;
-	text-align: center;	
+	/* text-align: center;	 */
 	text-shadow: 3px 3px 1px blue;
 	padding-top: 3%;
 	color: white;
@@ -19,9 +19,9 @@
 }
 
 .professionDisciption {
-	text-align:center;
+	/* text-align:center; */
 	color:white;
-	font-size:24px;
+	font-size:15px;
 	text-shadow: 0.1em 0.1em 0.2em red;
 	margin-top:-3%;
 	padding-bottom:2%;"
